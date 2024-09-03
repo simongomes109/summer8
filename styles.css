@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    color: black;
+}
+.header-menu{
+    color: #5dc6b0;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.active {
+    color: #5dc6b0;
+    
+}
+.group {
+    margin-left: -70%;
+    color: gray;
+    
+}
+
+.docplanner-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.docplanner-logo{
+    color: #5dc6b0  ;
+
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.introduction-logo {
+    justify-content: center;
+}
+
+.introduction-title {
+    color: #5dc6b0;
+}
+
+.introduction-texte {
+    display: flex;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.services-card {
+    padding: 20%;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+}
+
+.services-card-patient {
+    background-color: #5dc6b0; /* Vert pour les patients */
+    color: blue;
+}
+
+.services-card-doctors {
+    background-color: #4293db; /* Bleu pour les médecins */
+}
+
+.services-card-clinics {
+    background-color: #f5a623; /* Orange pour les cliniques */
+}
+
+.services-card-select {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.services-card-image {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.introduction-paragrahe {
+    margin: 10px;
+}
+
+.color {
+    /* Placeholder for color-specific styles if needed */
+}
+.entreprise {
+    text-align: center; /* Centre tout le contenu dans la section */
+    padding: 20px;
+    color: #5dc6b0; 
+}
+.entreprise-p {
+    margin: 0;
+    font-size: 2.0em; /* Réduit la taille du texte des balises <p> */
+    line-height: 1.2; /* Ajuste la hauteur de ligne pour un meilleur espacement vertical */
+    color: #5dc6b0;
+}
+.culture {
+    font-size: 1.7em; /* Taille encore plus petite pour ce paragraphe spécifique */
+    margin-top: 10px;
+    color: #5dc6b0;
+}
+.logo{
+    font-size: 2.0em;
+    line-height: 1.0;
+    color: gray;
+}
+.premier{
+    height: 50px;
+    text-align: center;
+}
+.trois{
+    height: 80px;
+}
+.p-1{
+    font-size: 2.0em; /* Réduit la taille du texte des balises <p> */
+    line-height: 1.2;
+    color: #5dc6b0;
+   
+}
+.soin{
+background-color: #e5faf8;
+top: -500px;
+height: 600px;
+
+}
+.centre{
+    padding: 20px;
+    width: 100%;
+    color: #34b99d;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.logo-1{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#log{
+   height: -444px;
+}
+.grid{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 80px;
+    
+    height: -2px;
+    overflow: hidden;
+    flex-direction: row;
+    margin: -10px;
+    left: 20px;
+    top: -605px;
+    
+}
+.effect{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+    height: ;
+
+}
+.carre{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    overflow: hidden;
+}
+.img{
+    max-width: 50px;
+}
+.blur{
+    margin-top: auto;
+    font-size: medium;
+    color: #5dc6b0;
+}
